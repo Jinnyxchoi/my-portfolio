@@ -49,6 +49,7 @@ header {
   font-size: 15px;
   margin: 22vh;
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .project-name, .video {
@@ -59,6 +60,20 @@ header {
 
 a {
   text-decoration: none;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: #000000;
+  background-color: #000000;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
