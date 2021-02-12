@@ -1,7 +1,18 @@
+@font-face
+  font-family: "Monument"
+  src: url("../MonumentExtended-Bold.otf")
+  font-weight:400
+  font-style: normal
+  font-display: auto
+
 
 body
-  font-size: 26px
-  font-family: "Press Start 2P", cursive
+  font-size: 3.5vh
+  min-height: 100vh
+  min-height: -webkit-fill-available
+  //font-family: "Press Start 2P", cursive
+  font-family: Monument
+  text-transform: uppercase
   background-color: $burlywood
   line-height: 1.6
 header
@@ -14,6 +25,7 @@ header
   display: flex
   justify-content: center
   margin: 50px
+  margin-top:0
   text-align: center
   padding: 50px
 
@@ -40,11 +52,11 @@ header
 
 .content
 
-  font-family: Montserrat, sans-serif
   font-size: 15px
   margin: 22vh
   margin-top: 0px
   margin-bottom:10px
+
 
 .project-name, .video
   display: flex
@@ -53,7 +65,7 @@ header
 
 a
   text-decoration: none
-  text-align:center
+  //text-align:center
 
 .links
   display: flex
