@@ -5,22 +5,27 @@
   font-style: normal
   font-display: auto
 
-
-body
-  font-size: 3.5vh
-  min-height: 100vh
-  min-height: -webkit-fill-available
-  //font-family: "Press Start 2P", cursive
-  font-family: Monument
-  text-transform: uppercase
-  background-color: $burlywood
-  line-height: 1.6
 header
+  -webkit-text-fill-color: $burlywood
+  -webkit-text-stroke-width: 1px
+  -webkit-text-stroke-color: $black
+  font-size:6vh
   display: flex
   justify-content: center
   margin: 50px
   text-align: center
   margin-bottom: 0px
+
+body
+  font-size: 3.5vh
+  min-height: 100vh
+  min-height: -webkit-fill-available
+  font-family: Monument
+  text-transform: uppercase
+  background-color: $burlywood
+  line-height: 1.6
+
+
 .introduction
   display: flex
   justify-content: center
@@ -34,10 +39,13 @@ header
   justify-content: center
   padding-bottom:80px
 
+  font-size:6vh
 
   a
     padding:20px
-    color: $black
+    -webkit-text-fill-color: $burlywood
+    -webkit-text-stroke-width: 1px
+    -webkit-text-stroke-color: $black
 
 
 .devicon
@@ -46,9 +54,13 @@ header
   justify-content: space-evenly
 
 #technologies, #projects, #contact
+  font-size: 8vh
   display: flex
   justify-content: center
   padding: 50px
+  -webkit-text-fill-color: $burlywood
+  -webkit-text-stroke-width: 1px
+  -webkit-text-stroke-color: $black
 
 .content
 
@@ -72,6 +84,7 @@ a
   flex-direction: column
   justify-content: center
   text-align: center
+  font-size:3vh
 
 hr
   height:2px
@@ -79,3 +92,14 @@ hr
   color:$black
   background-color:$black
   margin: 20px
+
+.contact-links
+  display: flex
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  font-size: 5vh
+
+
+
+
