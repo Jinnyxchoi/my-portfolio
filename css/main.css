@@ -18,7 +18,7 @@ header {
 }
 
 body {
-  font-size: 3.5vh;
+  font-size: 2.5vw;
   min-height: 100vh;
   min-height: -webkit-fill-available;
   font-family: Monument;
@@ -30,21 +30,19 @@ body {
 .introduction {
   display: flex;
   justify-content: center;
-  margin: 50px;
   margin-top: 0;
-  padding: 50px;
+  padding: 40px;
   text-transform: uppercase;
 }
 
 .nav {
   display: flex;
   justify-content: center;
-  padding-bottom: 80px;
   font-size: 5vw;
   text-transform: uppercase;
 }
 .nav a {
-  padding: 20px;
+  padding: 10px;
   -webkit-text-fill-color: #f6c9a0;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
