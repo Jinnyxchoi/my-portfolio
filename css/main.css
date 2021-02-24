@@ -118,6 +118,16 @@ body {
 a {
   text-decoration: none;
   margin: 10px;
+  color: #e9967a;
+  font-size: 5vh !important;
+}
+
+.material-icons {
+  font-size: 5vh !important;
+}
+
+.laptop {
+  padding-top: 3px;
 }
 
 .links {
@@ -139,6 +149,9 @@ hr {
   flex-direction: column;
   justify-content: center;
   font-size: 5vh;
+}
+.contact-links a {
+  color: #e9967a;
 }
 
 /*# sourceMappingURL=main.css.map */
