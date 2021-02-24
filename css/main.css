@@ -119,7 +119,7 @@ a {
   text-decoration: none;
   margin: 10px;
   color: #e9967a;
-  font-size: 5vh !important;
+  font-size: 5vh;
 }
 
 .material-icons {
