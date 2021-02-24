@@ -71,7 +71,7 @@ body {
     font-size: calc(1em + 02vw);
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 660px) {
   .video {
     display: none;
   }
