@@ -24,7 +24,7 @@ body
   min-height: 100vh
   min-height: -webkit-fill-available
   font-family: Monument
-  background-color: $burlywood
+  background-color: $white
   line-height: 1.6
   text-align: center
 
@@ -47,22 +47,44 @@ body
 
   a
     padding:10px
-    -webkit-text-fill-color: $burlywood
-    -webkit-text-stroke-width: 1px
-    -webkit-text-stroke-color: $black
+    color: $black
+    //-webkit-text-fill-color: $white
+    //-webkit-text-stroke-width: 1px
+    //-webkit-text-stroke-color: $black
 
 
 .project-desc
   font-family: "Graphik", "Helvetica Neue", helvetica, "Apple Color Emoji", arial, sans-serif
   font-size: calc(1em + 0.5vw)
 
+@media only screen and (min-width: 768px)
+  .project-desc
+    padding:0% 20%
+
+  .project-name, .video
+    display: flex
+    justify-content: center
+
+  .nav a:hover
+    -webkit-text-fill-color: #e9967a
+
+    //#ddadaf
+
+    font-size: 10vh
+
+  .project-name
+    font-size: calc(1em + 02vw)
+
+@media only screen and (max-width: 550px)
+  .video
+    display: none
+
+
 .devicon
   display: flex
   flex-wrap: wrap
 
-.nav a:hover
-  -webkit-text-fill-color: $black
-  font-size: 10vh
+
 
 .devicon
   font-size:50px
@@ -74,9 +96,9 @@ body
   display: flex
   justify-content: center
   padding: 50px
-  -webkit-text-fill-color: $burlywood
-  -webkit-text-stroke-width: 1px
-  -webkit-text-stroke-color: $black
+  //-webkit-text-fill-color: $white
+  //-webkit-text-stroke-width: 1px
+  //-webkit-text-stroke-color: $black
   text-transform: uppercase
 
 .content
@@ -85,12 +107,21 @@ body
   margin: 12vw
   margin-top: 0px
   margin-bottom:10px
+  .__border
+    border-style: solid
+    border-width: 5px
+    padding:3%
+    border-color: #ddadaf
+
+    //#c09999
+
+
 
 
 .project-name, .video
-  display: flex
-  justify-content: center
-  font-size: 30px
+  //font-size: calc(1em + 02vw)
+
+  margin:0
   span
     font-size: 20px
     margin: 8px
@@ -106,10 +137,11 @@ a
   justify-content: center
   font-size:3vh
 
+//this is not being used but keeping it here I want it later.
 hr
   height:2px
   border-width:0
-  color:$black
+  color:#A52A2A
   background-color:$black
   margin: 20px
 
